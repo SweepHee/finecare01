@@ -952,3 +952,13 @@ Stack trace:
 #4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
 #5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
 #6 {main}
+Error: Class 'App\Controllers\UserService' not found in C:\Users\jeons\Documents\study\Eclair\app\Controllers\UserController.php:24
+Stack trace:
+#0 [internal function]: App\Controllers\UserController::store()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Routing\Route.php(37): call_user_func()
+#2 C:\Users\jeons\Documents\study\Eclair\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(35): App\Providers\RouteServiceProvider::boot()
+#4 [internal function]: Eclair\Application->Eclair\{closure}()
+#5 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(36): array_walk()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(11): Eclair\Application->boot()
+#7 {main}
