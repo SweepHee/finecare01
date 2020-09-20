@@ -1,0 +1,954 @@
+PDOException: SQLSTATE[HY000] [2002] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다.
+ in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: SQLSTATE[HY000] [2002] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다.
+ in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(6): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(6): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(6): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(6): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(6): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(6): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(6): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: could not find driver in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct('mysql:dbname=ph...', 'root', '1234')
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup('mysql:dbname=ph...', 'root', '1234')
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\D...', 1)
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk(Array, Object(Closure))
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(7): Eclair\Application->__construct(Array)
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(6): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+ErrorException: Use of undefined constant asdasdz - assumed 'asdasdz' (this will throw an Error in a future version of PHP) in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): App\Providers\ErrorServiceProvider::App\Providers\{closure}()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+ErrorException: Use of undefined constant asdasdz - assumed 'asdasdz' (this will throw an Error in a future version of PHP) in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): App\Providers\ErrorServiceProvider::App\Providers\{closure}()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+
+Next PDOException: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(22): PDO->__construct()
+#1 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#2 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#5 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#6 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#7 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(9): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(11): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(11): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(11): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(11): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Call to a member function prepare() on null in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:35
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php(50): Eclair\Database\Adaptor::exec()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Session\DatabaseSessionHandler.php(48): Eclair\Database\Adaptor::getAll()
+#2 [internal function]: Eclair\Session\DatabaseSessionHandler->read()
+#3 C:\Users\jeons\Documents\study\Eclair\app\Providers\SessionServiceProvider.php(17): session_start()
+#4 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(35): App\Providers\SessionServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}()
+#6 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(36): array_walk()
+#7 C:\Users\jeons\Documents\study\Eclair\public\index.php(7): Eclair\Application->boot()
+#8 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(10): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(10): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(5): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
+Error: Class 'Eclair\Database\PDO' not found in C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Database\Adaptor.php:22
+Stack trace:
+#0 C:\Users\jeons\Documents\study\Eclair\app\Providers\DatabaseServiceProvider.php(12): Eclair\Database\Adaptor::setup()
+#1 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(25): App\Providers\DatabaseServiceProvider::register()
+#2 [internal function]: Eclair\Application->Eclair\{closure}()
+#3 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(26): array_walk()
+#4 C:\Users\jeons\Documents\study\Eclair\bootstrap\app.php(8): Eclair\Application->__construct()
+#5 C:\Users\jeons\Documents\study\Eclair\public\index.php(9): require_once('C:\\Users\\jeons\\...')
+#6 {main}
