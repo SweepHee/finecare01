@@ -70,9 +70,9 @@ class RequestContext
             return count($urlParams) < 1
                 ? []
 //            : array_map(fn ($k) => $urlParts[$k], array_keys($urlParams));
-                : array_map(function ($k) use ($urlParts) {
+                : array_map(function ($k) use ($urlParts) { // array_map -> 첫번째파람에 담긴 함수를 2번째 배열에 적용한다.
                     return $urlParts[$k];
-                }, array_keys($urlParams));
+                }, array_keys($urlParams)); // array_keys -> 배열의 키값을 배열로 만든다 ex) arr['hi'] = 'a',  $array = array_keys(arr) $array => $array[0] = 'hi';
         }
     }
 

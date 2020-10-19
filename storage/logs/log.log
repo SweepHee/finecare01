@@ -962,3 +962,69 @@ Stack trace:
 #5 C:\Users\jeons\Documents\study\Eclair\vendor\pronist\eclair\src\Application.php(36): array_walk()
 #6 C:\Users\jeons\Documents\study\Eclair\public\index.php(11): Eclair\Application->boot()
 #7 {main}
+ErrorException: Undefined index: CDRF_TOKEN in C:\Users\jeons\Documents\study\finecare01\resources\views\layouts\app.php:2
+Stack trace:
+#0 C:\Users\jeons\Documents\study\finecare01\resources\views\layouts\app.php(2): App\Providers\ErrorServiceProvider::App\Providers\{closure}()
+#1 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Support\Theme.php(37): require_once('C:\\Users\\jeons\\...')
+#2 C:\Users\jeons\Documents\study\finecare01\app\Controllers\IndexController.php(17): Eclair\Support\Theme::view()
+#3 [internal function]: App\Controllers\IndexController::index()
+#4 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Routing\Route.php(37): call_user_func()
+#5 C:\Users\jeons\Documents\study\finecare01\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#6 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(35): App\Providers\RouteServiceProvider::boot()
+#7 [internal function]: Eclair\Application->Eclair\{closure}()
+#8 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(36): array_walk()
+#9 C:\Users\jeons\Documents\study\finecare01\public\index.php(11): Eclair\Application->boot()
+#10 {main}
+ErrorException: Undefined index: CDRF_TOKEN in C:\Users\jeons\Documents\study\finecare01\resources\views\layouts\app.php:2
+Stack trace:
+#0 C:\Users\jeons\Documents\study\finecare01\resources\views\layouts\app.php(2): App\Providers\ErrorServiceProvider::App\Providers\{closure}()
+#1 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Support\Theme.php(37): require_once('C:\\Users\\jeons\\...')
+#2 C:\Users\jeons\Documents\study\finecare01\app\Controllers\IndexController.php(17): Eclair\Support\Theme::view()
+#3 [internal function]: App\Controllers\IndexController::index()
+#4 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Routing\Route.php(37): call_user_func()
+#5 C:\Users\jeons\Documents\study\finecare01\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#6 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(35): App\Providers\RouteServiceProvider::boot()
+#7 [internal function]: Eclair\Application->Eclair\{closure}()
+#8 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(36): array_walk()
+#9 C:\Users\jeons\Documents\study\finecare01\public\index.php(11): Eclair\Application->boot()
+#10 {main}
+ErrorException: Undefined index: CDRF_TOKEN in C:\Users\jeons\Documents\study\finecare01\resources\views\layouts\app.php:2
+Stack trace:
+#0 C:\Users\jeons\Documents\study\finecare01\resources\views\layouts\app.php(2): App\Providers\ErrorServiceProvider::App\Providers\{closure}()
+#1 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Support\Theme.php(37): require_once('C:\\Users\\jeons\\...')
+#2 C:\Users\jeons\Documents\study\finecare01\app\Controllers\IndexController.php(17): Eclair\Support\Theme::view()
+#3 [internal function]: App\Controllers\IndexController::index()
+#4 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Routing\Route.php(37): call_user_func()
+#5 C:\Users\jeons\Documents\study\finecare01\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#6 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(35): App\Providers\RouteServiceProvider::boot()
+#7 [internal function]: Eclair\Application->Eclair\{closure}()
+#8 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(36): array_walk()
+#9 C:\Users\jeons\Documents\study\finecare01\public\index.php(11): Eclair\Application->boot()
+#10 {main}
+ErrorException: Array to string conversion in C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Routing\Route.php:36
+Stack trace:
+#0 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Routing\Route.php(36): App\Providers\ErrorServiceProvider::App\Providers\{closure}()
+#1 C:\Users\jeons\Documents\study\finecare01\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(35): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(36): array_walk()
+#5 C:\Users\jeons\Documents\study\finecare01\public\index.php(11): Eclair\Application->boot()
+#6 {main}
+ErrorException: Array to string conversion in C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Routing\Route.php:36
+Stack trace:
+#0 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Routing\Route.php(36): App\Providers\ErrorServiceProvider::App\Providers\{closure}()
+#1 C:\Users\jeons\Documents\study\finecare01\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(35): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(36): array_walk()
+#5 C:\Users\jeons\Documents\study\finecare01\public\index.php(11): Eclair\Application->boot()
+#6 {main}
+ErrorException: Array to string conversion in C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Routing\Route.php:36
+Stack trace:
+#0 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Routing\Route.php(36): App\Providers\ErrorServiceProvider::App\Providers\{closure}()
+#1 C:\Users\jeons\Documents\study\finecare01\app\Providers\RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#2 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(35): App\Providers\RouteServiceProvider::boot()
+#3 [internal function]: Eclair\Application->Eclair\{closure}()
+#4 C:\Users\jeons\Documents\study\finecare01\vendor\pronist\eclair\src\Application.php(36): array_walk()
+#5 C:\Users\jeons\Documents\study\finecare01\public\index.php(11): Eclair\Application->boot()
+#6 {main}
